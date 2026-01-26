@@ -444,47 +444,55 @@ footer {
 
 @media (max-width: 768px) {
 
-  /* HERO SECTION */
+  /* REMOVE DIAGONAL / BACKGROUND SHAPE */
+  .bg-img {
+    display: none;
+  }
+
   .hero-top.container {
     flex-direction: column;
     height: auto;
-    padding-bottom: 2rem;
-    text-align: center;
+    padding: 3rem 1.5rem 2rem;
+    text-align: left;
   }
 
-  .info {
-    align-items: center;
+
+  /* FORCE HERO TEXT TO BLACK */
+  .hero,
+  .hero h1,
+  .hero h2,
+  .hero h6,
+  .aboutme-hero,
+  .aboutme-hero p {
+    color: #000 !important;
   }
 
   .info h1 {
-    margin-top: 2rem;
+    font-size: 18px;
+    margin-top: 0;
   }
 
   .info h2 {
     font-size: 42px;
-  }
-
-  /* BACKGROUND IMAGE / SHAPE */
-  .bg-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
-
-  .bg-img img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    opacity: 0.25;
+    line-height: 1.1;
   }
 
   .aboutme-hero {
-    padding-top: 2rem;
-    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 0;
+    text-align: left;
+  }
+
+  .aboutme-hero p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+   .skills {
+    margin-top: 4rem;
   }
 
 }
-
 
 
 
