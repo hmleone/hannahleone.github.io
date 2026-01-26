@@ -532,6 +532,22 @@ footer {
     width: auto;
   }
 
+   /* FIX SKILLS GRID ON MOBILE */
+  .grid-skills {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    column-gap: 0;
+  }
+
+  .grid-item img {
+    width: 70px;
+    height: auto;
+  }
+
+  .skills {
+    overflow: visible;
+  }
+
 }
 
 
