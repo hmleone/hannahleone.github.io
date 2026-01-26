@@ -534,7 +534,7 @@ footer {
 
    /* FIX SKILLS GRID ON MOBILE */
   .grid-skills {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat (2, 1fr);
     row-gap: 2rem;
     column-gap: 0;
   }
