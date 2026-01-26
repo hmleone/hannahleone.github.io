@@ -455,6 +455,15 @@ footer {
     padding: 3rem 1.5rem 2rem;
   }
 
+    .hero {
+    margin-top: 2rem;
+  }
+
+   header {
+    position: relative;
+    margin-top: 0;
+    padding: 1rem 1.5rem;
+  }
 
   /* FORCE HERO TEXT TO BLACK */
   .hero,
@@ -498,6 +507,12 @@ footer {
   /* If your nav background is light */
   .navbar {
     background: transparent;
+    align-items: center;
+  }
+
+    .navbar .logo {
+    height: 40px;
+    width: auto;
   }
 
 
