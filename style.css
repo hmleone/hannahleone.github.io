@@ -453,7 +453,6 @@ footer {
     flex-direction: column;
     height: auto;
     padding: 3rem 1.5rem 2rem;
-    text-align: left;
   }
 
 
@@ -479,10 +478,8 @@ footer {
 
   .aboutme-hero {
     margin-top: 1.5rem;
-    padding-top: 0;
-    text-align: left;
   }
-
+  
   .aboutme-hero p {
     font-size: 16px;
     line-height: 1.5;
@@ -491,6 +488,18 @@ footer {
    .skills {
     margin-top: 4rem;
   }
+
+  /* NAVIGATION TEXT BLACK ON MOBILE */
+  .nav-links li a,
+  .nav-links .btn {
+    color: #000 !important;
+  }
+
+  /* If your nav background is light */
+  .navbar {
+    background: transparent;
+  }
+
 
 }
 
