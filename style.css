@@ -477,9 +477,9 @@ footer {
     color: #000 !important;
   }
 
-  .info (
+  .info {
     text-align: center;
-  )
+  }
 
   .info h1,
   .info h2 {
@@ -499,7 +499,7 @@ footer {
   }
 
   .info h6 {
-    margin-top: 0;;
+    margin-top: 0;
   }
 
   .aboutme-hero {
