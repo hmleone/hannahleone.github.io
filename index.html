@@ -1,443 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hannah Leone Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <header> 
-        <div class="humburger">
-            <i class="fa-solid fa-bars-staggered"  data-visible="true"></i>
-            <i class="fa-solid fa-xmark"  data-visible="false"></i>
-        </div>
-    <nav class="container navbar">
-        <!--Updated on 5.17.26-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hannah Leone — Graphic Designer</title>
 
-        <img src="resources/transparent-logo.png" alt="logo" class="logo">
-        <ul class="nav-links" data-visible="false">
-            <li><a href="#About">About Me</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section class="hero">
-        <div class="bg-img">
-            <img src="resources/bg.png" alt="">
-        </div>
-        <div class="hero-top container">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-                <div class="info">
-                    <h1>Hi, I am</h1>
-                    <h2>Hannah</h2>
-                </div>
-        
+  <body>
+    <main class="site-shell">
+      <header class="header">
+        <a href="#home" class="brand" aria-label="Hannah Leone home">
+          <img
+            class="logo-image"
+            src="assets/transparent-logo.png"
+            alt="Hannah Leone logo"
+          />
+          <span class="brand-copy">
+            <strong>HANNAH LEONE</strong>
+            <small>GRAPHIC DESIGNER</small>
+          </span>
+        </a>
 
-         <div class="aboutme-hero">
-        <h6>Graphic Designer | Web Design Student | Creative Thinker</h6>
-        <p>I'm a graphic designer with a passion for creating thoughtful, visually engaging work that not only looks great but communicates effectively. I graduated from the University at Buffalo with a degree in Graphic Design and a minor in Communications. I've continued developing my skills through a variety of creative projects, building a portfolio centered around strong visual storytelling a purposeful design.
+        <nav aria-label="Primary navigation">
+          <a class="active" href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+        </nav>
 
-          Currently, I'm expanding my expertise into web design, combining my background in graphic design with modern web technologies to create user-friendly, functional, and visually impactful digital experiences.
+      </header>
 
-          Collaboration is a huge part of my creative process, and I thrive in positive, supportive envireonments where ideas can grow through teamwork. I'm always excited to bring fresh concepts to life and continue evolving as a designer. Thank you for taking the time to visit my site and explore my portfolio.
-        </p>
-         </div>
-        </div>   
-    </section>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Hannah Leone</h1>
+          <p class="role">Graphic Designer</p>
+          <p class="intro">
+            I create thoughtful, impactful design solutions that help brands
+            communicate, connect, and make an impact.
+          </p>
+          <a class="button button-dark" href="#work">
+            View My Work <span>→</span>
+          </a>
 
-    <section class="skills container" id="Skills">
-        <div class="header-info">
-            <h4>SKILLS</h4>
         </div>
 
-        <div class="grid-skills">
-            <div class="grid-item item1">
-                    <img src="resources/Adobe_Illustrator-Logo.wine.png" alt="">
-                    <h6>Illustrator</h6>
-            </div>
-                        <div class="grid-item item2">
-                  <img src= "resources/Adobe-Photoshop-Logo-2019-2020.png" alt="">
-                    <h6>Photoshop</h6>
-                </div>
-                <div class="grid-item item3">
-                    <img src="resources/Adobe_InDesign-Logo.wine.png" alt="">
-                    <h6>Indesign</h6>
-                </div>
-                <div class="grid-item item4">
-                    <img src="resources/canvalogo.webp" alt="">
-                    <h6>Canva</h6>
-                </div>
-                <div class="grid-item item5">
-                    <img src="resources/constant contact logo.png" alt="">
-                    <h6>Constant Contact</h6>
-                </div>
-                <div  class="grid-item item6">
-                    <img src="resources/birdeye Logo.png" alt="">
-                    <h6>Birdeye</h6>
-                </div>
+        <div class="hero-image" role="img" aria-label="Portrait of Hannah Leone"></div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills-intro">
+          <p class="eyebrow">My skills</p>
+          <h2>What I Do</h2>
+          <p>I bring ideas to life through strategic design and visual storytelling.</p>
         </div>
 
-        <div class="learning-now">
-            <h4>LEARNING NOW</h4>
-            <div class="grid-skills">
-                
-                <div class="grid-item item1">
-                    <h6>HTML</h6>
-                </div>
+        <div class="skill-group">
+          <h3>Design</h3>
+          <div class="skill-list">
+            <div><b>Ai</b><span>Illustrator</span></div>
+            <div><b>Ps</b><span>Photoshop</span></div>
+            <div><b>Id</b><span>InDesign</span></div>
+          </div>
+        </div>
 
-                <div class="grid-item item2">
-                    <h6>CSS</h6>
-                </div>
+        <div class="skill-group">
+          <h3>Digital &amp; Web</h3>
+          <div class="skill-list">
+            <div><b>CC</b><span>Constant Contact</span></div>
+            <div><b class="canva">C</b><span>Canva</span></div>
+            <div><b class="wp">W</b><span>WordPress</span></div>
+          </div>
+        </div>
 
-                <div class="grid-item item3">
-                    <h6>Javascript</h6>
-                </div>
+        <div class="skill-group">
+          <h3>Other Skills</h3>
+          <div class="skill-list">
+            <div><b>♢</b><span>Typography</span></div>
+            <div><b>▣</b><span>Layout</span></div>
+            <div><b>◉</b><span>Color Theory</span></div>
+          </div>
+        </div>
+      </section>
 
-            </div>
+      <section class="projects" id="work">
+        <p class="eyebrow centered">Selected Work</p>
+        <h2 class="centered">Featured Projects</h2>
+
+        <div class="project-grid">
+
+          <article>
+          <a class="project-card" href="projects.html#brochure">
+            <img src="assets/CC Brochure.png" alt="Credit Card Brochure" />
+            <h3>Credit Card Brochure</h3>
+            <p>Print Design</p>
+          </a>
+          </article>
+
+
+
+          <article>
+            <a class="project-card" href="projects.html#branding">
+              <img class="branding-image" src="assets/Piggy Bank.png" alt="Brand Identity Project" />
+              <h3>Sticker Series</h3>
+              <p>Branding</p>
+            </a>
+          </article>
+
+
+
+
+          <article>
+          <a class="project-card" href="projects.html#digital">
+            <img src="assets/Chandler Chamber Ad.jpg" alt="Project description" />
+            <h3>Home Equity Digital Advertisement</h3>
+            <p>Digital Design</p>
+          </a>
+          </article>
+
+        </div>
+
+        <div class="projects-button">
+          <a class="button button-outline all-projects" href="projects.html">
+            View All Projects <span>→</span>
+          </a>
         </div>
 
 
-            
-    </section>
+      </section>
 
-  <section class="portfolio" id="Portfolio">
-  <h4>PORTFOLIO</h4>
 
-  <div class="portfolio-grid">
+      <section class="resume-section">
+  <h2>Let's Work Together</h2>
+  <p>Interested in working together? Check out my resume.</p>
 
-    <!-- Campaign Item -->
-    <div class="portfolio-campaign">
+  <a href="Hannah Leone Resume 2026.pdf" class="resume-button" download>
+    Download Resume
+  </a>
 
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/Sticker.png">
-        <div class="overlay">
-          <h6>Youth Week</h6>
-        </div>
-      </div>
+  <p class="copyright">
+    © 2026 Hannah Leone. All rights reserved.
+  </p>
+</section>
 
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
+    </main>
 
-        <!-- Project description-->
-         <h3 class="project-blurb">
-          Youth Week Design Materials <br>
-          A cohesive set of print materials created to engage youth participants through interactive and visually approachable design. Assets were developed using a combination of Adobe Illustrator and InDesign to ensure consistency, clarity, and print-ready production.
-         </h3>
-      
-        <!--Images with Captions--> 
-      <figure>
-        <img src="resources/Poster 8.5x11.pdf" alt="Youth Week Poster">
-        <figcaption><h3>Youth Week Promotional Poster</h3>
-        A vibrant, eye-catching design to draw attention to Youth Week events and activities.</figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/Digital Screen 1920x1080-01.png" alt="Youth Week Color Page">
-        <figcaption><h3> Interactive Coloring Page </h3>
-        Encourages creativity and hands-on participation for youth members.</figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/Crossword Puzzle With Logo.pdf" alt="Youth Week Word Search">
-        <figcaption><h3>Word Search Puzzle </h3>
-        A fun, educational activity reinforcing key Youth Week themes.</figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/Word Search with Logo.pdf" alt="Youth Week Cross Word">
-        <figcaption><h3>Crossword Puzzle </h3>
-        Promotes problem-solving and engagement in a playful format.</figcaption>
-      </figure>
-
-    </div>
-
-    </div>
-
-    <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
+   
     
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/Lost Our Home Flyer.png">
-        <div class="overlay">
-          <h6>Pet Supply Drive</h6>
-        </div>
-      </div>
-      
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-
-        <!-- Project description-->
-         <h3 class="project-blurb">
-          Pet Supply Drive Campaign Materials <br>
-          A community-focused set of promotional materials created for a Credit Union–led Pet Supply Drive supporting local animal shelters. Assets included in-branch print signage and digital platform banners, designed to engage members through clear messaging and cohesive visual design.
-         </h3>
-
-         <!-- Images with Captions-->
-        <figure>
-        <img src="resources/Pet Supply Drive Flyer.pdf" alt="Pet Supply Drive Flyer">
-        <figcaption><h3>Promotional Poster</h3> A clear, approachable in-branch poster designed to raise awareness and encourage member participation in the Pet Supply Drive</figcaption>
-        </figure>
-
-        <figure>
-        <img src="resources/Pet Supply Drive Account Tile.png">
-          <figcaption><h3>Digital Banking Banner</h3> A streamlined digital banner displayed within the online banking platform to promote the Pet Supply Drive and increase visibility among members. </figcaption>
-        </figure>
-      </div>
-
-    </div>
-
-      <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/CC Campaign - Website Pop Up (1).png">
-        <div class="overlay">
-          <h6>Holiday Credit Card Campaign</h6>
-        </div>
-      </div>
-
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-
-        <!-- Project description-->
-         <h3 class="project-blurb">
-          Holiday Rewards Campaign Materials <br>
-          A seasonal promotional campaign created to highlight a limited-time rewards incentive for cardholders. The campaign focused on clear value-driven messaging and festive visuals to encourage increased card usage during the holiday period. </h3>
-      
-        <!--Images with Captions--> 
-      <figure>
-        <img src="resources/CC Campaign - Website Pop Up (1).png" alt="Holiday Credit Card Promotion Website Pop-up">
-        <figcaption><h3>Website Pop-up</h3>
-        A festive website pop-up designed to highlight a limited-time 2x points promotion and capture member attention during site visits.</figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/CC Holiday Campaign - Email Header (1).png" alt="Holiday Credit Card Campaign Email Header">
-        <figcaption><h3> Email Header </h3>
-        Email header designed to introduce the holiday credit card promotion and highlight limted-time rewards. </figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/CC Holiday Campaign-Top Banner (1).png" alt="Holiday Credit Card Campaign Digital Banking Top Banner">
-        <figcaption><h3>Digital Banking Banner </h3>
-        A steramlined digital banner displayed within the online banking platform to promote the holiday credit card rewards offer.</figcaption>
-      </figure>
-
-      <figure>
-        <img src="resources/CC Rewards Point Teller Tower (3).png" alt="Holiday Credit Card Campaign Teller Tower Display">
-        <figcaption><h3>Teller Tower</h3>
-        An in-branch teller tower designed to support the holiday credit card campaing and reinforce messaging at point of service.</figcaption>
-      </figure>
-
-    </div>
-
-    </div>
-    <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/tshirt - 2.png">
-        <div class="overlay">
-          <h6>Apparel</h6>
-        </div>
-      </div>
-
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-        <img src="resources/Option 3.pdf">
-        <img src="resources/Option 3.3.pdf">
-        <img src="resources/Option 3.2.pdf">
-        <img src="resources/Option 2.pdf">
-        <img src="resources/Option 2.2.pdf">
-
-      </div>
-
-    </div>
-
-   <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/TIMES Eblast Fall 2024 - 2.png">
-        <div class="overlay">
-          <h6>Email Campaigns</h6>
-        </div>
-      </div>
-
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-
-        <!-- Project description-->
-         <h3 class="project-blurb">
-          Holiday Rewards Campaign Materials <br>
-          A seasonal promotional campaign created to highlight a limited-time rewards incentive for cardholders. The campaign focused on clear value-driven messaging and festive visuals to encourage increased card usage during the holiday period. </h3>
-      
-        <!--Images with Captions--> 
-      <figure>
-        <img src="resources/TIMES Eblast Fall 2024 -1.png" alt="Fall 2024 Eblast">
-      </figure>
-
-      <figure>
-        <img src="resources/TIMES Eblast January 2025.png" alt="January 2025 Eblast">
-      </figure>
-
-      <figure>
-        <img src="resources/TIMES Eblast March 2024 - 2.png" alt="March 2024 Eblast">
-      </figure>
-
-      <figure>
-        <img src="resources/TIMES Eblast Summer 2024.png" alt="Summer 2024 Eblast">
-      </figure>
-
-      <figure>
-        <img src="resources/Car Sale Email.png" alt="Car Sale Eblast">
-      </figure>
-
-
-    </div>
-
-
-    <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/95 Years -Transparent Background-01.png">
-        <div class="overlay">
-          <h6>Logo Designs</h6>
-        </div>
-      </div>
-
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-        <img src="resources/First Wealth Advisors Logo - 2024-02.png">
-      </div>
-
-    </div>
-
-
-   <div class="portfolio-campaign">
-
-  <!-- Main square -->
-  <div class="portfolio-item campaign-toggle">
-    <img src="resources/Jan2025MM Pg 1.png">
-    <div class="overlay">
-      <h6>Community Newsletter</h6>
-      <p>Editorial Design</p>
-    </div>
-  </div>
-
-  <!-- Expanded content -->
-  <div class="campaign-gallery">
-
-    <!-- Page previews -->
-    <a href="resources/newsletter.pdf" target="_blank">
-      <img src="resources/Jan2025MM Pg 1.png" alt="Newsletter page 1">
-    </a>
-
-    <a href="resources/newsletter.pdf" target="_blank">
-      <img src="resources/Jan2026MM Pg 2.png" alt="Newsletter page 2">
-    </a>
-
-    <a href="resources/newsletter.pdf" target="_blank">
-      <img src="resources/Jan2026MM Pg 3.png" alt="Newsletter page 3">
-    </a>
-
-    <!-- CTA -->
-    <a href="resources/January2026MM.pdf"
-       target="_blank"
-       class="view-pdf">
-      View full newsletter →
-    </a>
-
-  </div>
-
-
-   <!-- Campaign Item -->
-    <div class="portfolio-campaign">
-
-      <!-- Main square -->
-      <div class="portfolio-item campaign-toggle">
-        <img src="resources/8.png">
-        <div class="overlay">
-          <h6>Indeed Banner</h6>
-        </div>
-      </div>
-
-      <!-- Expanded gallery -->
-      <div class="campaign-gallery">
-        <img src="resources/7.png">
-        <img src="resources/6.png">
-        <img src="resources/5.png">
-        <img src="resources/4.png">
-        <img src="resources/3.png">
-        <img src="resources/2.png">
-        <img src="resources/1.png">
-
-      </div>
-
-    </div>
-
-
-  </div>
-
-</div>
-
-
-  </div>
-</section>
-
-
-
-
-
-</section>
-
-
-
-</main>
-
-<footer>
-    <div class="container footer-info">
-    <div class="scroll-up">
-        <a href="#"><i class="fas fa-angle-up"></i></a>
-        <h6>BACK TO TOP</h6>
-    </div>
-</footer>
-
-
-<script>
-  document.querySelectorAll(".campaign-toggle").forEach(toggle => {
-    toggle.addEventListener("click", () => {
-      const gallery = toggle.nextElementSibling;
-      gallery.classList.toggle("active");
-    });
-  });
-</script>
-
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
+  </body>
 </html>
+
+
+   
